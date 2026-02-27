@@ -1,0 +1,25 @@
+#containerLogin{
+    width:500px;
+    height:auto;
+    border: 1px solid;
+    justify-items: center;
+}
+.inputField{
+    width:300px;
+    height:60px;
+    /* border:1px solid; */
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.inputField >input{
+    width:auto;
+    height:40px;
+}
+#navigateSignup{
+    cursor:pointer;
+    transition:  ease-in 0.2s;
+}
+#navigateSignup:hover{
+    color:brown;
+}

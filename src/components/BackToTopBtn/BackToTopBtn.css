@@ -1,0 +1,21 @@
+#backToTop {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10vh;
+  right: 10vw;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;               /* thêm */
+  justify-content: center;     /* căn ngang */
+  align-items: center;         /* căn dọc */
+  background: #333;            /* dễ thấy hơn */
+}
+
+#backToTop > * {
+  width: 20px;  /* nhỏ lại chút cho vừa vòng tròn */
+  height: 20px;
+  fill: white;  /* đổi màu icon nếu muốn */
+}

@@ -1,0 +1,27 @@
+#containerInfo {
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+
+}
+
+#imageItem {
+    width: 100%;
+    height: 300px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  display: grid; /* hoặc flex nếu phù hợp */
+  place-items: center;
+  min-height: 100vh;
+}
